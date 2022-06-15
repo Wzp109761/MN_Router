@@ -17,7 +17,8 @@ ext{
         other:[
                 ':common',
                 ':basic',
-                ':router'
+                ':router',
+                ':annotation'
         ]
     ]
 }

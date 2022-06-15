@@ -6,8 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.wzp109761.annotation.BindPath;
 import com.wzp109761.login.LoginActivity;
+import com.wzp109761.router.ARouter;
 
+
+@BindPath("main/main")
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -17,6 +21,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void JumpActivity(View view) {
-        startActivity(new Intent(MainActivity.this, LoginActivity.class));
+        ARouter.getInstance().jumpActivity("login/login",null);
     }
 }

@@ -19,5 +19,6 @@ include ':member'
 include ':basic'
 include ':common'
 include ':app:mylibrary'
-
 include ':router'
+include ':annotation_compiler'
+include ':annotation'

@@ -39,4 +39,5 @@ dependencies {
         implementation project(path:':login')
         implementation project(path:':member')
     }
+    annotationProcessor project(path:':annotation_compiler')
 }
